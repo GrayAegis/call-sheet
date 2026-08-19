@@ -1,0 +1,13 @@
+{
+    "display_name": "CALL SHEET",
+    "loading_order": 600,
+    "requires": [],
+    "optional": [],
+    "js": "index.js",
+    "css": "",
+    "author": "GrayAegis",
+    "version": "0.1.0",
+    "homePage": "",
+    "auto_update": false,
+    "generate_interceptor": "callSheetInterceptor"
+}
