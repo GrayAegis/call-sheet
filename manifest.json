@@ -4,10 +4,10 @@
     "requires": [],
     "optional": [],
     "js": "index.js",
-    "css": "",
+    "css": "style.css",
     "author": "GrayAegis",
-    "version": "0.1.0",
-    "homePage": "",
+    "version": "0.2.0",
+    "homePage": "https://github.com/GrayAegis/call-sheet",
     "auto_update": false,
     "generate_interceptor": "callSheetInterceptor"
 }

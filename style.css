@@ -1,0 +1,85 @@
+.call-sheet-count {
+    font-size: 0.85em;
+    opacity: 0.65;
+    margin-bottom: 6px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.call-sheet-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin-bottom: 8px;
+}
+
+.call-sheet-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 4px 7px;
+    border-radius: 5px;
+    cursor: pointer;
+    border-left: 2px solid transparent;
+    transition: background-color 0.12s, opacity 0.12s;
+}
+
+.call-sheet-row:hover {
+    background-color: rgba(128, 128, 128, 0.14);
+}
+
+.call-sheet-row.on {
+    border-left-color: currentColor;
+}
+
+.call-sheet-row.on i {
+    opacity: 0.9;
+}
+
+.call-sheet-row.off {
+    opacity: 0.42;
+}
+
+.call-sheet-row i {
+    font-size: 0.7em;
+    width: 1em;
+    text-align: center;
+}
+
+.call-sheet-name {
+    flex: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.call-sheet-tag {
+    font-size: 0.7em;
+    opacity: 0.6;
+    border: 1px solid currentColor;
+    border-radius: 8px;
+    padding: 0 5px;
+}
+
+.call-sheet-actions {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 8px;
+}
+
+.call-sheet-actions .menu_button {
+    flex: 1;
+    margin: 0;
+}
+
+.call-sheet-hint,
+.call-sheet-log {
+    font-size: 0.8em;
+    opacity: 0.55;
+    margin-top: 6px;
+}
+
+.call-sheet-log {
+    font-family: ui-monospace, Menlo, monospace;
+    font-size: 0.75em;
+}
